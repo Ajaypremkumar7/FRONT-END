@@ -11,7 +11,7 @@ export default function Table({ Deletuser, UpdatedUser }) {
 
         async function FeatchData() {
             try {
-                const user = await axios.get('https://back-end-r5bx.onrender.com/api/get')
+                const user = await axios.get('https://back-end-1-era4.onrender.com/api/get')
                 const response = user.data
 
 
